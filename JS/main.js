@@ -43,8 +43,8 @@ var ideaBoxJS = (function(originalIdeaBox) {
 	/*allow the user to change the size of all text by checking or unchecking a box*/
 
 	largeCheck.addEventListener('change', function(){
-		var listOfPosts = document.getElementById("ideaBoxList");
-		listOfPosts.classList.toggle("largeFont");
+		var ideaBoxList = document.getElementById("ideaBoxList");
+		ideaBoxList.classList.toggle("largeFont");
 	});
 
 	/*allow the user to clear all posts from the board*/

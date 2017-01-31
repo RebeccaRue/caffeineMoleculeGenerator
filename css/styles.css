@@ -1,0 +1,166 @@
+#generatorBody {
+	background-image: url(../images/background.jpg)
+}
+
+body {
+  min-width: 950px;
+}
+
+#ideaBox {
+  overflow: scroll;
+  
+}
+
+#ideaBoxList {
+	list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 700px;
+}
+
+#ideaBoxList li {
+  width: 700px;
+  display: block;
+  height: 75px;
+}
+
+#ideaBoxList p {
+  width: 60%;
+  margin: 0;
+  margin-top: 15px;
+  /*overflow: scroll;**/
+}
+
+.delete-me {
+  float: right;
+
+}
+
+.edit-me {
+  float: right;
+
+}
+
+h5 {
+  margin: 0;
+  float: left;
+  margin-left: 10px;
+  clear: left;
+}
+
+h6 {
+  margin: 5px 0 10px 10px;
+  float: left;
+}
+
+#themeCheckbox {
+  text-decoration: none;
+  list-style: none;
+  background-color: rgba(100, 162, 196, 0.63);
+  width: 200px;
+  margin-left: 40px;
+  padding: 5px 5px;
+  border-radius: 20px;
+}
+
+#themeCheckbox li {
+  display: inline-block;
+}
+
+ul#fixednav {
+  min-width: 900px;
+}
+
+#fixednav li {  
+  display: inline-block;
+  align-content: center;
+  height: 79px;
+}
+
+.spacer {
+  width: inherit;
+  height: 95px;
+
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 2px;
+  display: flex;
+  background-color: navy;
+}
+
+
+
+
+.navbar ul {
+  position: fixed;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-content: center;
+  /*overflow: hidden;*/
+  background-color: navy;
+  width: cover;
+  height: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  /*color: white;*/
+  font: sans-serif;
+  font-weight: bold;
+  font-size: relative; 
+}
+
+.fixedNav {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/236x/aa/66/c6/aa66c6db2e326d56b796568570698758.jpg);
+}
+
+
+.lightLetters {
+  color: white;
+}
+
+
+.realBody {
+	overflow: scroll;
+	background-color: navy;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/236x/aa/66/c6/aa66c6db2e326d56b796568570698758.jpg);
+	min-height: px;
+  min-width: 900px;
+  padding: 0; 
+  margin-top: 5%;
+  margin-bottom: 25%;
+  margin-left: 0;
+  margin-right: 0;
+  /*color: white;*/
+  /*border: 30px;
+  border-color: #233a5e; */
+  
+}
+
+.darkTheme {
+  background-image: url(../images/blueBackground.jpg);
+}
+
+
+.wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-height: 100%;
+    width: 75%;
+    margin: 0 auto;
+    /*top: 0; */
+
+  }
+
+
+.largeFont p {
+  font-size: 1.5em;
+}
