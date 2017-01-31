@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Molecule Generator</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	</head>
+
+	<body>
+		<nav class="navBar">
+			<ul class="fixedNav">
+				<li>Molecule Generator</li>
+				<li>
+					<input type="text" id="inputText" size="50" placeholder="Name of Molecule:">
+					</li>
+				<li>
+					<button id="buttonEraseBoard">Clear Old Ideas:</button>
+					</li>
+				<li>
+					<input type="radio" name="users" id="mug">Mug
+					<input type="radio" name="users" id="laptopSkin">Laptop Skin
+					<input type="radio" name="users" id="slouchyShirt">Slouchy Shirt
+					<input type="radio" name="users" id="sticker">Sticker
+					</li>
+			</ul>
+		</nav>
+
+		<div class="spacer"><br><br><br><br><hr></div>
+		<ul id="themeToggle">
+			<li>
+				<input type="checkBox" value="darkTheme" id="darkThemeCheckBox"><label>Dark Theme</label>
+				</li>
+			<li>
+				<input type="checkBox" value="largeTheme" id="largeThemeCheckBox"><label>Large Text</label>
+				</li>
+			</ul>
+		<div class="wrapper">
+			<div class="realBody">
+				<br>
+				<label for="ideaBox">Molecules As Generated On Merchandise:</label>
+				<br>
+				<hr>
+				<article id="ideaBox">
+					<ul id="ideaBoxList">
+						</ul>
+					</article>
+				<br>
+				</div>
+			</div>
+		<script type="text/javascript" src="JS/remove.js"></script>
+		<script type="text/javascript" src="JS/main.js"></script>
+		<script type="text/javascript" src="JS/posts.js"></script>
+		</body>
+	</html>
+		
